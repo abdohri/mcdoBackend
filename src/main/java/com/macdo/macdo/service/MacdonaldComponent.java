@@ -31,6 +31,7 @@ public class MacdonaldComponent {
 
 	//this method is executed in the startup of the app and fill all the lines of document in list of macdonald's list
 	//in case of big file its better to use H2 embaded but in our case the file is small so we will use only list 
+	/*
 	@PostConstruct
 	public void init() {
 		BufferedReader fileReader = null;
@@ -67,4 +68,5 @@ public class MacdonaldComponent {
 			}
 		}
 	}
+	*/
 }
