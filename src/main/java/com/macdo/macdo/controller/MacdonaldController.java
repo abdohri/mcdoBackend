@@ -38,4 +38,12 @@ public class MacdonaldController {
 		}
 		return list;
 	}
+	
+		@ApiOperation(value = "Search a mcdonalds with state key")
+	@RequestMapping(value = "/hello", method = GET)
+	public String findAllMacdonaldByStatse()
+			throws Exception {
+	
+		return "Bonjour abdel kirak a chef bikhir ";
+	}
 }
